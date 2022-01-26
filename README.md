@@ -10,8 +10,13 @@ Run poetry install
 
 Then poetry shell
 
-Then you can run the tests with pytest -s --html <path/name.html>
+Then you can run the tests with `pytest -s --html <path/name.html>`
 
-Add the --next-gen flag to get the new report
+Example:
+```sh
+$ pytest -s --html reports/report.html
+```
 
-Add the --self-contained-html flag to get a self-contained report
+Add the `--next-gen` flag to get the new report
+
+Add the `--self-contained-html` flag to get a self-contained report
